@@ -10,7 +10,7 @@ const Navbar = () => {
     setIsOpen(!isOpen)
   }
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#60657F] text-slate-200">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#200130] text-slate-200">
       <div></div>
       {/* Menu */}
 
@@ -32,7 +32,7 @@ const Navbar = () => {
         className={
           !isOpen
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#60657F] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#200130] flex flex-col justify-center items-center'
         }
       >
         <li className="py-6 text-4xl">Home</li>
