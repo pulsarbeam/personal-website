@@ -18,14 +18,14 @@ const Home = () => {
             I'm a Full Stack Developer based New Zealand
           </p>
           <div>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-              <Link to="work" smooth={true} duration={500}>
+            <Link to="work" smooth={true} duration={500} offset={-13}>
+              <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
                 View Projects
-              </Link>
-              <span className=" group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3" />
-              </span>
-            </button>
+                <span className=" group-hover:rotate-90 duration-300">
+                  <HiArrowNarrowRight className="ml-3" />
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
