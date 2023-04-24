@@ -12,13 +12,13 @@ const Work = () => {
             </p>
             <p className="py-6">// Check out some of my work</p>
           </div>
-
+          {/*
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             <div
               style={{ backgroundImage: `url(${workImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
-              {/* hover effect */}
+             
               <div className="opacity-0 group-hover:opacity-80">
                 <span className="text-2xl font-bold text-white tracking-wider">
                   react JS Application
@@ -41,7 +41,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${workImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
-              {/* hover effect */}
+              
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider text-center ">
                   React TS Application
@@ -64,7 +64,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${workImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
-              {/* hover effect */}
+            
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider">
                   react JS Application
@@ -87,7 +87,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${workImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
-              {/* hover effect */}
+           
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider text-center ">
                   React TS Application
@@ -110,7 +110,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${workImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
-              {/* hover effect */}
+              
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider">
                   react JS Application
@@ -133,7 +133,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${workImg})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
-              {/* hover effect */}
+            
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider text-center ">
                   React TS Application
@@ -152,7 +152,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </Element>
