@@ -15,17 +15,19 @@ const About = () => {
           </div>
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
             <div className="sm:text-right text-4xl font-bold">
-              <p>Hi, I'm Rene, nice to meet you. Please take a look around.</p>
+              <p>Hi, I'm Rene, nice to meet you.</p>
             </div>
             <div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum
+                I'm a full stack software developer. I'm passionate about web
+                and software development, especially  and I love to learn new things. I just
+                finished studying at{' '}
+                <span className=" border-b-2 border-pink-600">
+                  Dev Academy Aoetearoa
+                </span>{' '}
+                and I'm looking for a job as a junior developer. Please check
+                out my projects and feel free to contact me if you have any
+                questions.
               </p>
             </div>
           </div>
