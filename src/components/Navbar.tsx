@@ -94,6 +94,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-sm">
             <a
+              target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/rene-groothuis-1801b01a0"
             >
@@ -102,6 +103,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] rounder-sm">
             <a
+              target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/pulsarbeam"
             >
@@ -110,6 +112,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] rounded-sm">
             <a
+              target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:renegrooth@gmail.com"
             >
@@ -118,8 +121,9 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] rounded-sm">
             <a
+              target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
-              href="/personal-website/public/Rene-CV.pdf"
+              href="https://drive.google.com/file/d/1VuA05K4OuZ99sSQzYFOnJPh5WphMrWDk/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
