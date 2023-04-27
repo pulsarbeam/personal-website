@@ -11,32 +11,31 @@ const Navbar = () => {
     setIsOpen(!isOpen)
   }
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#200130] text-slate-200">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#200130] text-slate-200">
       <div></div>
       {/* Menu */}
 
-      <ul className="hidden md:flex">
-        <li>
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link to="work" smooth={true} duration={500} offset={-13}>
-            Work
-          </Link>
-        </li>
-        <li>
+      <ul
+        className="
+       hidden md:flex
+       text-lg 
+        font-semibold
+       
+       "
+      >
+        <Link to="home" smooth={true} duration={500} className=" ">
+          <li className="w-[80px] hover:font-bold">Home</li>
+        </Link>
+        <Link to="about" smooth={true} duration={500}>
+          <li className="w-[80px] hover:font-bold">About</li>
+        </Link>
+        <Link to="skills" smooth={true} duration={500}>
+          <li className="w-[80px] hover:font-bold">Skills</li>
+        </Link>
+        <Link to="work" smooth={true} duration={500} offset={-13}>
+          <li className=" w-[80px] hover:font-bold">Work</li>
+        </Link>
+        <li className="w-[80px] hover:font-bold">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -110,7 +109,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] rounded-sm">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#02856a] rounded-sm">
             <a
               target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
