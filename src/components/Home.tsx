@@ -20,7 +20,7 @@ const Home = () => {
           <div className="flex flew-row flex-wrap">
             <div className="mr-4">
               <Link to="work" smooth={true} duration={500} offset={-13}>
-                <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+                <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 rounded-xl">
                   View Projects
                   <span className=" group-hover:rotate-90 duration-300">
                     <HiArrowNarrowRight className="ml-3" />
@@ -30,7 +30,7 @@ const Home = () => {
             </div>
 
             <Link to="contact" smooth={true} duration={500} offset={-13}>
-              <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+              <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 rounded-xl">
                 Contact
                 <span className=" group-hover:rotate-90 duration-300">
                   <HiArrowNarrowRight className="ml-3" />

@@ -11,7 +11,7 @@ const Navbar = () => {
     setIsOpen(!isOpen)
   }
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#200130] text-slate-200">
+    <div className="fixed z-[100] w-full h-[80px] flex justify-between items-center px-8 bg-[#200130] text-slate-200">
       <div></div>
       {/* Menu */}
 
