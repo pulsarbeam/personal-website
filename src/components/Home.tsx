@@ -1,5 +1,8 @@
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Element, Link } from 'react-scroll'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Home = () => {
   return (
@@ -17,6 +20,7 @@ const Home = () => {
           <p className="text-[#8892b0] py-4 max-w-[700px]">
             I'm a Full Stack Developer based New Zealand
           </p>
+
           <div className="flex flew-row flex-wrap">
             <div className="mr-4">
               <Link to="work" smooth={true} duration={500} offset={-13}>
@@ -37,6 +41,46 @@ const Home = () => {
                 </span>
               </button>
             </Link>
+          </div>
+          <div className="pt-10">
+            <ul className="lg:hidden inline-grid grid-cols-2 gap-4">
+              <li className="flex justify-between items-center rounded-xl  pt-2">
+                <a
+                  target="_blank"
+                  className="flex justify-between items-center w-full text-gray-300"
+                  href="https://www.linkedin.com/in/rene-groothuis-1801b01a0"
+                >
+                  <FaLinkedin size={50} />
+                </a>
+              </li>
+              <li className="flex justify-between items-center rounded-xl  pt-2">
+                <a
+                  target="_blank"
+                  className="flex justify-between items-center w-full text-gray-300"
+                  href="https://github.com/pulsarbeam"
+                >
+                  <FaGithub size={50} />
+                </a>
+              </li>
+              <li className="flex justify-between items-center rounded-xl  pt-2">
+                <a
+                  target="_blank"
+                  className="flex justify-between items-center w-full text-gray-300"
+                  href="mailto:renegrooth@gmail.com"
+                >
+                  <HiOutlineMail size={50} />
+                </a>
+              </li>
+              <li className="flex justify-between items-center rounded-xl  pt-2">
+                <a
+                  target="_blank"
+                  className="flex justify-between items-center w-full text-gray-300"
+                  href="https://drive.google.com/file/d/1nD05czEsZXC5xuDZtREMJXrkMJZGKUMe/view?usp=sharing"
+                >
+                  <BsFillPersonLinesFill size={50} />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
