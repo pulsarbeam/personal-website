@@ -25,7 +25,7 @@ const Work = () => {
                 <div className="pt-8 text-center">
                   <a
                     target="_blank"
-                    href="https://github.com/harakeke-2023/Squishy-Squish"
+                    href="https://github.com/pulsarbeam/Squishy-Squish"
                   >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
