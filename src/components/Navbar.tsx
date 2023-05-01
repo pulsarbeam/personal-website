@@ -14,6 +14,47 @@ const Navbar = () => {
     <div className="fixed z-[100] w-full h-[80px] flex justify-between items-center px-8 bg-[#200130] text-slate-200">
       <div></div>
       {/* Menu */}
+      <div className="">
+        <ul className="lg:hidden inline-grid grid-cols-4 gap-1">
+          <li className="flex justify-between items-center rounded-xl">
+            <a
+              target="_blank"
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.linkedin.com/in/rene-groothuis-1801b01a0"
+            >
+              <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="flex justify-between items-center rounded-xl">
+            <a
+              target="_blank"
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://github.com/pulsarbeam"
+            >
+              <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="flex justify-between items-center rounded-xl">
+            <a
+              target="_blank"
+              className="flex justify-between items-center w-full text-gray-300"
+              href="mailto:renegrooth@gmail.com"
+            >
+              <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="flex justify-between items-center rounded-xl">
+            <a
+              target="_blank"
+              className="flex justify-between items-center w-full text-gray-300"
+              href="ReneCV.pdf"
+              download
+            >
+              <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
 
       <ul
         className="
