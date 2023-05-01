@@ -75,7 +75,8 @@ const Home = () => {
                 <a
                   target="_blank"
                   className="flex justify-between items-center w-full text-gray-300"
-                  href="https://drive.google.com/file/d/1nD05czEsZXC5xuDZtREMJXrkMJZGKUMe/view?usp=sharing"
+                  href="ReneCV.pdf"
+                  download
                 >
                   <BsFillPersonLinesFill size={50} />
                 </a>

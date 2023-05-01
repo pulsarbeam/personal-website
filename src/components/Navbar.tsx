@@ -128,9 +128,10 @@ const Navbar = () => {
             <a
               target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1nD05czEsZXC5xuDZtREMJXrkMJZGKUMe/view?usp=sharing"
+              href="ReneCV.pdf"
+              download
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              CV <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
