@@ -23,13 +23,10 @@ const About = () => {
               <p>
                 I'm a full stack software developer. I'm passionate about web
                 and software development, especially and I love to learn new
-                things. I just finished studying at{' '}
-                <span className=" border-b-2 border-pink-600">
-                  Dev Academy Aoetearoa
-                </span>{' '}
-                and I'm looking for a job as a full stack developer. Please
-                check out my projects and feel free to contact me if you have
-                any questions.
+                things. I just finished studying at Dev Academy Aoetearoa and
+                I'm looking for a job as a full stack developer. Please check
+                out my projects and feel free to contact me if you have any
+                questions.
               </p>
             </div>
             <img
