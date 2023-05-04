@@ -3,7 +3,7 @@ import { Element } from 'react-scroll'
 const Contact = () => {
   return (
     <Element name="contact">
-      <div className="w-full h-full bg-[#200130] flex justify-center items-center p-10">
+      <div className="w-full h-full bg-[#200130] flex justify-center items-center pt-[200px]">
         <form
           method="POST"
           action="https://getform.io/f/31cbc424-080f-4ccb-bd35-b23de9773adb"

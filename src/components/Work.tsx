@@ -7,14 +7,14 @@ const Work = () => {
   return (
     <Element name="work">
       <div className="w-full md:h-screen bg-[#200130] text-gray-300">
-        <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center h-full w-full pb-[100px]">
+        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full w-full">
           <div className="pb-8">
             <h1 className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
               Work
             </h1>
             <p className="py-6">// Check out some of my work</p>
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-4 gap-9">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-9">
             <div
               style={{ backgroundImage: `url(${squishy})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -114,7 +114,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
-            <div className="md:col-span-2">
+            <div>
               <p className="text-left font-bold mb-5">
                 Tech used: TypeScript, React, Redux, SQLite3, Knex.
               </p>
