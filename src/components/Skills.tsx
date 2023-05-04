@@ -9,7 +9,7 @@ import Typescript from '../assets/typescript.png'
 const Skills = () => {
   return (
     <Element name="skills">
-      <div className="w-full h-screen bg-[#200130] text-gray-300">
+      <div className="w-full h-screen bg-[#200130] text-gray-300 pb-10">
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div>
             <h1 className="text-4xl font-bold inline border-b-4 border-pink-600 ">
