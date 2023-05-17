@@ -21,7 +21,7 @@ const About = () => {
             </div>
             <div>
               <p>
-                I'm a full stack software developer. I'm passionate about web
+                I'm a Full-Stack software developer. I'm passionate about web
                 and software development, especially and I love to learn new
                 things. I just finished studying at Dev Academy Aoetearoa and
                 I'm looking for a job as a full stack developer. Please check
