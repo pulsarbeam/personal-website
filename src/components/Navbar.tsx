@@ -73,7 +73,7 @@ const Navbar = () => {
         <Link to="skills" smooth={true} duration={500}>
           <li className="w-[80px] hover:font-bold">Skills</li>
         </Link>
-        <Link to="work" smooth={true} duration={500} offset={-13}>
+        <Link to="work" smooth={true} duration={500} offset={-80}>
           <li className=" w-[80px] hover:font-bold">Work</li>
         </Link>
         <li className="w-[80px] hover:font-bold">
