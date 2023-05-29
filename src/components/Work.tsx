@@ -1,6 +1,6 @@
 import { Element } from 'react-scroll'
 import squishy from '../assets/squishy.png'
-import todo from '../assets/todo.png'
+import nextjs from '../assets/nextjs.png'
 import cryptogoat from '../assets/cryptogoat.png'
 import electric from '../assets/electric.png'
 
@@ -143,17 +143,25 @@ const Work = () => {
             </div>
 
             <div
-              style={{ backgroundImage: `url(${todo})` }}
+              style={{ backgroundImage: `url(${nextjs})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               <div className="opacity-0 group-hover:opacity-80">
                 <p className="text-2xl font-bold text-white tracking-wider text-center px-4">
-                  Todo List Full Stack
+                  NextJS 13.4 Image Gallery
                 </p>
                 <div className="pt-8 text-center">
                   <a
                     target="_blank"
-                    href="https://rene-todo.devacademy.online/?"
+                    href="https://github.com/pulsarbeam/NextJS-image"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://next-js-image-flax.vercel.app/"
                   >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
@@ -164,19 +172,15 @@ const Work = () => {
             </div>
             <div>
               <p className="text-left font-bold mb-5">
-                Tech used: TypeScript, React, Redux, SQLite3, Knex.
+                Tech used: TypeScript, NextJS, Bootstrap.
               </p>
               <p className="text-left mb-2">
-                This is a Todo FullStack App, I made this app to learn how to
-                use the fullstack. In which we joined the frontend and backend
-                together. We saved states using Redux and used SQLite3 to save
-                the data.
-              </p>
-
-              <p className="text-left">
-                From this project I learnt a lot about Redux and asyncthunks,
-                the flow of fullstack, and implementing what we learnt at Dev
-                Academy.
+                This is a NextJS app that renders images statically and
+                dynamically, I made this app to learn how to use the new NextJS
+                router and Bootstrap. I have made an app that makes API requests
+                to the Unsplash API. I have a built in search bar that will
+                render images you have searched for and made some items
+                pre-render to help understand client and server components.
               </p>
             </div>
           </div>
