@@ -1,9 +1,12 @@
 import { Element } from 'react-scroll'
 import rene from '../assets/rene.png'
+import 'animate.css'
+import TrackVisibility from 'react-on-screen'
 
 const About = () => {
   return (
     <Element name="about">
+      <TrackVisibility>
       <div className="w-full h-screen bg-[#200130] text-gray-300 ">
         <div className="flex flex-col justify-center items-center w-full h-full">
           <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
@@ -37,6 +40,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      </TrackVisibility>
     </Element>
   )
 }
