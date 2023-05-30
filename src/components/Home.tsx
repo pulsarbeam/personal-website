@@ -15,7 +15,9 @@ const Home = () => {
                 <div>
                   <div
                     className={
-                      isVisible ? 'animate__animated animate__slideInDown' : ''
+                      isVisible
+                        ? 'animate__animated animate__slideInDown animate__slower'
+                        : ''
                     }
                   >
                     <p className="text-pink-500">Hi, my name is</p>
@@ -23,7 +25,7 @@ const Home = () => {
                   <div
                     className={
                       isVisible
-                        ? 'animate__animated animate__slideInRight animate__slow'
+                        ? 'animate__animated animate__slideInRight animate__slow '
                         : ''
                     }
                   >
@@ -33,7 +35,9 @@ const Home = () => {
                   </div>
                   <div
                     className={
-                      isVisible ? 'animate__animated animate__slideInLeft' : ''
+                      isVisible
+                        ? 'animate__animated animate__slideInLeft animate__slower'
+                        : ''
                     }
                   >
                     <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
