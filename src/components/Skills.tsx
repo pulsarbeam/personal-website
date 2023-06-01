@@ -1,7 +1,7 @@
 import { Element } from 'react-scroll'
 import Github from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png'
-import Prisma from '../assets/prisma.png'
+import Redux from '../assets/redux.png'
 import Node from '../assets/node.png'
 import React from '../assets/react.png'
 import Typescript from '../assets/typescript.png'
@@ -45,10 +45,10 @@ const Skills = () => {
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                       <img
                         className="w-20 mx-auto"
-                        src={Prisma}
+                        src={Redux}
                         alt="Knex-logo-img"
                       />
-                      <p className="my-4">Prisma</p>
+                      <p className="my-4">Redux Toolkit</p>
                     </div>
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                       <img
