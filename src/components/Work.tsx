@@ -1,6 +1,6 @@
 import { Element } from 'react-scroll'
 import squishy from '../assets/squishy.png'
-import nextjs from '../assets/nextjs.png'
+import carhub from '../assets/carhub.png'
 import cryptogoat from '../assets/cryptogoat.png'
 import electric from '../assets/electric.png'
 
@@ -63,6 +63,46 @@ const Work = () => {
                 progress I have made so far.
               </p>
             </div>
+
+            <div
+              style={{ backgroundImage: `url(${carhub})` }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              <div className="opacity-0 group-hover:opacity-80">
+                <p className="text-2xl font-bold text-white tracking-wider text-center px-4">
+                  CarHub NextJs 13
+                </p>
+                <div className="pt-8 text-center">
+                  <a
+                    target="_blank"
+                    href="https://github.com/pulsarbeam/carjam"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                  <a target="_blank" href="https://carjam.vercel.app/">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Demo
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p className="text-left font-bold mb-5">
+                Tech used: TypeScript, NextJS, TailwindCSS, HeadlessUI.
+              </p>
+              <p className="text-left mb-2">
+                This is a NextJS app that uses rapidapi to get car data, and
+                images from imagin.studio, it is a mock design of a car rental
+                app, during making this I learnt a lot about search
+                functionality and using headless UI. Also improving my CSS
+                skills. I would like to add more functionality to this app
+                including adding sign in.
+              </p>
+            </div>
+
             <div
               style={{ backgroundImage: `url(${squishy})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -140,48 +180,6 @@ const Work = () => {
                 enjoyed making this app.
               </p>
               <p className="text-left"></p>
-            </div>
-
-            <div
-              style={{ backgroundImage: `url(${nextjs})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            >
-              <div className="opacity-0 group-hover:opacity-80">
-                <p className="text-2xl font-bold text-white tracking-wider text-center px-4">
-                  NextJS 13.4 Image Gallery
-                </p>
-                <div className="pt-8 text-center">
-                  <a
-                    target="_blank"
-                    href="https://github.com/pulsarbeam/NextJS-image"
-                  >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://next-js-image-flax.vercel.app/"
-                  >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div>
-              <p className="text-left font-bold mb-5">
-                Tech used: TypeScript, NextJS, Bootstrap.
-              </p>
-              <p className="text-left mb-2">
-                This is a NextJS app that renders images statically and
-                dynamically, I made this app to learn how to use the new NextJS
-                router and Bootstrap. I have made an app that makes API requests
-                to the Unsplash API. I have a built in search bar that will
-                render images you have searched for and made some items
-                pre-render to help understand client and server components.
-              </p>
             </div>
           </div>
         </div>
