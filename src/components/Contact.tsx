@@ -25,21 +25,26 @@ const Contact = () => {
             placeholder="Name"
             name="name"
             aria-label="Enter your name"
+            required
           />
 
           <input
-            className="my-4 p-2 bg-[#e7e6e6] rounded-xl "
+            className="my-4 p-2 bg-[#e7e6e6] rounded-xl"
             type="email"
             placeholder="Email"
             name="email"
+            required
           />
           <textarea
             className="p-2 bg-[#e7e6e6] rounded-xl "
             name="message"
             rows={10}
             placeholder="Message"
+            required
           ></textarea>
-          <button className="text-neutral-700 text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
+          <button
+            className={`text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out`}
+          >
             Let's Collaborate
           </button>
         </form>

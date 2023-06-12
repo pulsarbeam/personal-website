@@ -64,11 +64,7 @@ const Navbar = () => {
        
        "
       >
-        <li>
-          <li className="mr-[650px] font-bold">
-            <p>Rene.Dev</p>
-          </li>
-        </li>
+        
         <Link to="home" smooth={true} duration={500} className=" ">
           <li className="w-[80px] text-neutral-700 hover:text-black relative group ">
             Home

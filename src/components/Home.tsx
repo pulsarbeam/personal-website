@@ -9,7 +9,7 @@ const Home = () => {
           {/* Container */}
           <div className="mx-auto px-8 flex flex-col justify-center items-center h-full overflow-hidden">
             <div>
-              <p className="text-neutral-700">Hi, my name is</p>
+              <p className="text-neutral-700 ">Hi, my name is</p>
 
               <h1 className="text-4xl sm:text-7xl font-bold text-black">
                 Rene Groothuis 👋
