@@ -51,7 +51,7 @@ const Skills = () => {
               />
             </div>
           </div>
-          <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center">
+          <div className="hidden md:grid md:grid-cols-6 lg:grid-cols-6 gap-4 text-center">
             <p className=" text-xl font-bold ">Typescript</p>
             <p className=" text-xl font-bold ">Redux</p>
             <p className=" text-xl font-bold ">Node</p>
