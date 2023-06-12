@@ -1,7 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes morphing-image {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  }
+}
+
+.animate-morphing-image {
+  animation-name: morphing-image;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+
+
 
 
 @layer base {
@@ -22,7 +49,7 @@
 .content-div:hover {
   background-image: linear-gradient(
       to right,
-      rgba(112, 157, 255, 0.8),
-      hsla(242, 74%, 61%, 0.8)   
+      rgba(106, 152, 245, 0.8),
+      hsla(185, 97%, 55%, 0.8)   
   )!important;
 }
