@@ -7,13 +7,13 @@ const Contact = () => {
         <form
           method="POST"
           action="https://getform.io/f/31cbc424-080f-4ccb-bd35-b23de9773adb"
-          className="flex flex-col max-w-[800px]"
+          className="flex flex-col max-w-[1000px]"
         >
           <div className="pb-8">
             <h1 className="text-4xl font-bold inline border-b-4 border-black text-black ">
               Contact
             </h1>
-            <p className="text-black pt-2">
+            <p className="text-black pt-4">
               // Submit the form below or shoot me an email -
               renegrooth@gmail.com
             </p>

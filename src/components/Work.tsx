@@ -8,9 +8,9 @@ const Work = () => {
   return (
     <Element name="work">
       <div className="h-full pb-[200px] bg-[#ffffff] text-black">
-        <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center h-full w-full">
+        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full w-full">
           <div className="pb-8">
-            <h1 className="text-4xl font-bold inline border-b-4 text-black border-black">
+            <h1 className="text-4xl font-bold inline border-b-4 text-black border-black ">
               Work
             </h1>
             <p className="py-6">// Check out some of my work</p>
