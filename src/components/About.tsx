@@ -6,7 +6,7 @@ const About = () => {
     <Element name="about">
       <div className="w-full h-screen bg-[#ffffff] text-black ">
         <div className="flex flex-col justify-center items-center w-full h-full">
-          <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
+          <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mt-[150px]">
             <div className="sm:text-right pb-8 pl-10 md:pl-4 ">
               <h1 className="text-4xl font-bold inline border-b-4 border-black ">
                 About
