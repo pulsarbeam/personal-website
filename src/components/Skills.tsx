@@ -51,13 +51,21 @@ const Skills = () => {
               />
             </div>
           </div>
-          <div className="hidden md:grid md:grid-cols-6 lg:grid-cols-6 gap-4 text-center">
+          <div className="hidden md:grid md:grid-cols-6 lg:grid-cols-6 gap-4 text-center pb-8">
             <p className=" text-xl font-bold ">Typescript</p>
             <p className=" text-xl font-bold ">Redux</p>
             <p className=" text-xl font-bold ">Node</p>
             <p className=" text-xl font-bold ">React</p>
             <p className=" text-xl font-bold ">TailwindCSS</p>
             <p className=" text-xl font-bold ">Github</p>
+          </div>
+          <p className="font-bold text-md">Other technologies used</p>
+          <hr />
+          <div className="hidden md:grid md:grid-cols-6 lg:grid-cols-6 text-center pt-5 justify-center items-center">
+            <p className="">Prisma</p>
+            <p className="">Angular</p>
+            <p className="">C++</p>
+            <p className="">JUCE</p>
           </div>
         </div>
       </div>
