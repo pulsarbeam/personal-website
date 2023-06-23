@@ -1,4 +1,6 @@
 import { Element } from 'react-scroll'
+import { FaGithub } from 'react-icons/fa'
+import { TbWorld } from 'react-icons/tb'
 import squishy from '../assets/squishy.png'
 import carhub from '../assets/carhub.png'
 import cryptogoat from '../assets/cryptogoat.png'
@@ -8,15 +10,15 @@ const Work = () => {
   return (
     <Element name="work">
       <div className="h-full pb-[200px] bg-[#ffffff] text-black">
-        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full w-full">
+        <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center h-full w-full">
           <div className="pb-8">
             <h1 className="text-4xl font-bold inline border-b-4 text-black border-black ">
               Work
             </h1>
             <p className="py-6">// Check out some of my work</p>
           </div>
-          <div className="grid justify-items-center grid-cols-1 gap-9 ">
-            <div className=" text-center max-w-[800px] border-slate-500 border-2 p-10 my-2 hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
+          <div className="grid justify-items-center gap-9 grid-cols-1 lg:grid-cols-2 ">
+            <div className=" text-center max-w-[800px] border-slate-500 border-2 p-10 my-2 hover:shadow-[8px_8px_0px_0px_#1B9AAA] hover:border-[#1B9AAA] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
               <p className="text-center text-xl font-bold mb-2 ">
                 Electrical Code of Compliance Project
               </p>
@@ -33,7 +35,7 @@ const Work = () => {
                       target="_blank"
                       href="https://github.com/pulsarbeam/electric-project"
                     >
-                      <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                         Code
                       </button>
                     </a>
@@ -67,8 +69,27 @@ const Work = () => {
                   the progress I have made so far.
                 </p>
               </div>
+              <div className="flex flex-row justify-center gap-4">
+                <a
+                  target="_blank"
+                  href="https://github.com/pulsarbeam/electric-project"
+                >
+                  <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                    <div className="flex flex-row gap-2 items-center">
+                      <FaGithub /> Code
+                    </div>
+                  </button>
+                </a>
+                <a target="_blank" href="https://electric-project.vercel.app/">
+                  <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                    <div className="flex flex-row gap-2 items-center">
+                      <TbWorld /> Demo
+                    </div>
+                  </button>
+                </a>
+              </div>
             </div>
-            <div className="  max-w-[800px] border-slate-500 border-2 p-10  my-2 hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
+            <div className="  max-w-[800px] border-slate-500 border-2 p-10  my-2 hover:shadow-[8px_8px_0px_0px_#577d1d] hover:border-[#577d1d] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
               <p className="text-center text-xl font-bold mb-5">Carhub</p>
               <div
                 style={{ backgroundImage: `url(${carhub})` }}
@@ -108,9 +129,25 @@ const Work = () => {
                   including adding sign in.
                 </p>
               </div>
+              <div className="flex flex-row justify-center gap-4">
+                <a target="_blank" href="https://github.com/pulsarbeam/carjam">
+                  <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                    <div className="flex flex-row gap-2 items-center">
+                      <FaGithub /> Code
+                    </div>
+                  </button>
+                </a>
+                <a target="_blank" href="https://carjam.vercel.app/">
+                  <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                    <div className="flex flex-row gap-2 items-center">
+                      <TbWorld /> Demo
+                    </div>
+                  </button>
+                </a>
+              </div>
             </div>
 
-            <div className=" p-10 max-w-[800px] border-slate-500 border-2  my-2 hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
+            <div className=" p-10 max-w-[800px] border-slate-500 border-2  my-2 hover:shadow-[8px_8px_0px_0px_#DB3A34] hover:border-[#DB3A34] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
               <p className="text-center text-xl font-bold mb-5">
                 Squishy Squish
               </p>
@@ -153,9 +190,21 @@ const Work = () => {
                 </p>
                 <p className="text-left"></p>
               </div>
+              <div className="flex flex-row justify-center gap-4">
+                <a
+                  target="_blank"
+                  href="https://github.com/pulsarbeam/Squishy-Squish"
+                >
+                  <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                    <div className="flex flex-row gap-2 items-center">
+                      <FaGithub /> Code
+                    </div>
+                  </button>
+                </a>
+              </div>
             </div>
 
-            <div className=" p-10 max-w-[800px] border-slate-500 border-2 my-2 hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
+            <div className=" p-10 max-w-[800px] border-slate-500 border-2 my-2 hover:shadow-[8px_8px_0px_0px_#461220] hover:border-[#461220] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
               <p className="text-center text-xl font-bold mb-5">CryptoGoat</p>
               <div
                 style={{ backgroundImage: `url(${cryptogoat})` }}
@@ -200,6 +249,25 @@ const Work = () => {
                   like to add more features and fix a few bugs. I throughly
                   enjoyed making this app.
                 </p>
+              </div>
+              <div className="flex flex-row justify-center gap-4">
+                <a
+                  target="_blank"
+                  href="https://github.com/pulsarbeam/crypto-app"
+                >
+                  <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                    <div className="flex flex-row gap-2 items-center">
+                      <FaGithub /> Code
+                    </div>
+                  </button>
+                </a>
+                <a target="_blank" href="https://cryptogoat-374da.web.app/">
+                  <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                    <div className="flex flex-row gap-2 items-center">
+                      <TbWorld /> Demo
+                    </div>
+                  </button>
+                </a>
               </div>
             </div>
           </div>

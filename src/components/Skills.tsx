@@ -64,7 +64,7 @@ const Skills = () => {
           <div className="hidden md:grid md:grid-cols-6 lg:grid-cols-6 text-center pt-5 justify-center items-center">
             <p className="">Prisma</p>
             <p className="">Angular</p>
-            <p className="">C++</p>
+            <p className="">Graphql</p>
             <p className="">JUCE</p>
           </div>
         </div>
