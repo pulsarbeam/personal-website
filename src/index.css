@@ -28,6 +28,14 @@
   animation-iteration-count: infinite;
 }
 
+.fade-animation {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-animation.fade-in {
+  opacity: 1;
+}
 
 
 
