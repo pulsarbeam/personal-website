@@ -59,13 +59,15 @@ const Skills = () => {
             <p className=" text-xl font-bold ">TailwindCSS</p>
             <p className=" text-xl font-bold ">Github</p>
           </div>
-          <p className="font-bold text-md">Other technologies used</p>
+          <p className="hidden font-bold md:text-md lg:text-md">
+            Other technologies used
+          </p>
           <hr />
           <div className="hidden md:grid md:grid-cols-6 lg:grid-cols-6 text-center pt-5 justify-center items-center">
             <p className="">Prisma</p>
             <p className="">Angular</p>
             <p className="">Graphql</p>
-            <p className="">JUCE</p>
+         
           </div>
         </div>
       </div>
