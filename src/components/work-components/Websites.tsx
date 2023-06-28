@@ -9,9 +9,12 @@ const Websites = () => {
   return (
     <div>
       <div>
-        <p className="text-3xl font-bold mb-5 flex justify-center underline">
-          Projects
-        </p>
+        <div className="flex justify-center">
+          <p className="text-2xl font-bold mb-5 flex justify-center items-center border-2 w-[400px] border-black rounded-xl p-2">
+            Projects
+          </p>
+         
+        </div>
         <div className="grid justify-items-center gap-9 grid-cols-1 lg:grid-cols-2 ">
           <div className=" text-center max-w-[800px] border-slate-500 border-2 p-10 my-2 hover:shadow-[8px_8px_0px_0px_#1B9AAA] hover:border-[#1B9AAA] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
             <p className="text-center text-xl font-bold mb-2 ">
@@ -84,8 +87,8 @@ const Websites = () => {
               </a>
             </div>
           </div>
-          <div className="  max-w-[800px] border-slate-500 border-2 p-10  my-2 hover:shadow-[8px_8px_0px_0px_#577d1d] hover:border-[#577d1d] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
-            <p className="text-center text-xl font-bold mb-5">Carhub</p>
+          <div className="text-center max-w-[800px] border-slate-500 border-2 p-10 my-2 hover:shadow-[8px_8px_0px_0px_#1B9AAA] hover:border-[#1B9AAA] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
+            <p className="text-center text-xl font-bold mb-2">Carhub</p>
             <div
               style={{ backgroundImage: `url(${carhub})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -143,7 +146,7 @@ const Websites = () => {
           </div>
 
           <div className=" p-10 max-w-[800px] border-slate-500 border-2  my-2 hover:shadow-[8px_8px_0px_0px_#DB3A34] hover:border-[#DB3A34] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
-            <p className="text-center text-xl font-bold mb-5">Squishy Squish</p>
+            <p className="text-center text-xl font-bold mb-2">Squishy Squish</p>
             <div
               style={{ backgroundImage: `url(${squishy})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -198,7 +201,7 @@ const Websites = () => {
           </div>
 
           <div className=" p-10 max-w-[800px] border-slate-500 border-2 my-2 hover:shadow-[8px_8px_0px_0px_#461220] hover:border-[#461220] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
-            <p className="text-center text-xl font-bold mb-5">CryptoGoat</p>
+            <p className="text-center text-xl font-bold mb-2">CryptoGoat</p>
             <div
               style={{ backgroundImage: `url(${cryptogoat})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
