@@ -8,32 +8,23 @@ import electric from '../../assets/electric.png'
 const Websites = () => {
   return (
     <div>
-      <div>
-        <div className="flex justify-center">
-          <p className="text-2xl font-bold mb-5 flex justify-center items-center border-2 w-[400px] border-black rounded-xl p-2">
-            Projects
-          </p>
-         
-        </div>
-        <div className="grid justify-items-center gap-9 grid-cols-1 lg:grid-cols-2 ">
-          <div className=" text-center max-w-[800px] border-slate-500 border-2 p-10 my-2 hover:shadow-[8px_8px_0px_0px_#1B9AAA] hover:border-[#1B9AAA] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
-            <p className="text-center text-xl font-bold mb-2 ">
-              Electrical Code of Compliance Project
-            </p>
+      <div className="grid grid-cols-1 ">
+        <div className=" w-full my-2 rounded-xl flex gap-6 flex-wrap lg:flex-nowrap justify-center ">
+          <div className="lg:w-1/2 w-full  ">
             <div
               style={{ backgroundImage: `url(${electric})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md  flex justify-center items-center mx-auto content-div"
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               <div className="opacity-0 group-hover:opacity-80">
                 <p className="text-2xl font-bold text-white tracking-wider px-4">
-                  Electrical Code of Compliance Project
+                  Electrical Code of Compliance
                 </p>
                 <div className="pt-8 text-center">
                   <a
                     target="_blank"
                     href="https://github.com/pulsarbeam/electric-project"
                   >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
                   </a>
@@ -48,8 +39,13 @@ const Websites = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="lg:w-1/2">
+            <p className="text-center text-xl font-bold ">
+              Electrical Code of Compliance
+            </p>
             <div>
-              <p className="text-left font-bold mb-2 pt-10 ">
+              <p className="text-left font-bold mb-2 pt-4 ">
                 Tech used: TypeScript, React, React-pdf, Tailwind, Vite.
               </p>
               <p className="text-left mb-2">
@@ -72,14 +68,14 @@ const Websites = () => {
                 target="_blank"
                 href="https://github.com/pulsarbeam/electric-project"
               >
-                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3 flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
                   <div className="flex flex-row gap-2 items-center">
                     <FaGithub /> Code
                   </div>
                 </button>
               </a>
               <a target="_blank" href="https://electric-project.vercel.app/">
-                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3 flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
                   <div className="flex flex-row gap-2 items-center">
                     <TbWorld /> Demo
                   </div>
@@ -87,15 +83,17 @@ const Websites = () => {
               </a>
             </div>
           </div>
-          <div className="text-center max-w-[800px] border-slate-500 border-2 p-10 my-2 hover:shadow-[8px_8px_0px_0px_#1B9AAA] hover:border-[#1B9AAA] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
-            <p className="text-center text-xl font-bold mb-2">Carhub</p>
+        </div>
+        <hr />
+        <div className=" w-full my-2 rounded-xl mt-10 flex gap-6 flex-wrap lg:flex-nowrap justify-center ">
+          <div className="lg:w-1/2 w-full  ">
             <div
               style={{ backgroundImage: `url(${carhub})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               <div className="opacity-0 group-hover:opacity-80">
                 <p className="text-2xl font-bold text-white tracking-wider text-center px-4">
-                  CarHub NextJs 13
+                  CarHub
                 </p>
                 <div className="pt-8 text-center">
                   <a
@@ -114,8 +112,11 @@ const Websites = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="lg:w-1/2">
+            <p className="text-center text-xl font-bold ">CarHub</p>
             <div>
-              <p className="text-left font-bold mb-5 pt-10">
+              <p className="text-left font-bold mb-5 pt-4">
                 Tech used: TypeScript, NextJS, TailwindCSS, HeadlessUI.
               </p>
               <p className="text-left mb-2">
@@ -129,14 +130,14 @@ const Websites = () => {
             </div>
             <div className="flex flex-row justify-center gap-4">
               <a target="_blank" href="https://github.com/pulsarbeam/carjam">
-                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3 flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
                   <div className="flex flex-row gap-2 items-center">
                     <FaGithub /> Code
                   </div>
                 </button>
               </a>
               <a target="_blank" href="https://carjam.vercel.app/">
-                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3 flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
                   <div className="flex flex-row gap-2 items-center">
                     <TbWorld /> Demo
                   </div>
@@ -144,70 +145,16 @@ const Websites = () => {
               </a>
             </div>
           </div>
-
-          <div className=" p-10 max-w-[800px] border-slate-500 border-2  my-2 hover:shadow-[8px_8px_0px_0px_#DB3A34] hover:border-[#DB3A34] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
-            <p className="text-center text-xl font-bold mb-2">Squishy Squish</p>
-            <div
-              style={{ backgroundImage: `url(${squishy})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            >
-              <div className="opacity-0 group-hover:opacity-80">
-                <p className="text-2xl font-bold text-white tracking-wider px-4">
-                  Squishy Squish Game
-                </p>
-                <div className="pt-8 text-center">
-                  <a
-                    target="_blank"
-                    href="https://github.com/pulsarbeam/Squishy-Squish"
-                  >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div>
-              <p className="text-left text-xl underline font-bold mb-5 pt-10">
-                Squishy Squish
-              </p>
-              <p className="text-left font-bold mb-5">
-                Tech used: TypeScript, React, P5js and Redux.
-              </p>
-              <p className="text-left mb-2">
-                This was our final group project for DevAcademy we made a
-                platformer.
-              </p>
-              <p className="text-left">
-                Using React and Redux, we implemented our skills in game
-                development. Although P5js, a non-game-specific engine, was
-                challenging, we successfully created game physics with it. In
-                the future, we would use an actual game engine like Phaser.
-              </p>
-              <p className="text-left"></p>
-            </div>
-            <div className="flex flex-row justify-center gap-4">
-              <a
-                target="_blank"
-                href="https://github.com/pulsarbeam/Squishy-Squish"
-              >
-                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
-                  <div className="flex flex-row gap-2 items-center">
-                    <FaGithub /> Code
-                  </div>
-                </button>
-              </a>
-            </div>
-          </div>
-
-          <div className=" p-10 max-w-[800px] border-slate-500 border-2 my-2 hover:shadow-[8px_8px_0px_0px_#461220] hover:border-[#461220] hover:text-[#1a202c] rounded-xl transition duration-300 ease-in-out">
-            <p className="text-center text-xl font-bold mb-2">CryptoGoat</p>
+        </div>
+        <hr />
+        <div className=" w-full my-2 rounded-xl mt-10 flex gap-6 flex-wrap lg:flex-nowrap justify-center ">
+          <div className="lg:w-1/2 w-full  ">
             <div
               style={{ backgroundImage: `url(${cryptogoat})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               <div className="opacity-0 group-hover:opacity-80">
-                <p className="text-2xl font-bold text-white tracking-wider px-4">
+                <p className="text-2xl font-bold text-white tracking-wider text-center px-4">
                   CryptoGoat
                 </p>
                 <div className="pt-8 text-center">
@@ -227,11 +174,11 @@ const Websites = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="lg:w-1/2">
+            <p className="text-center text-xl font-bold ">CryptoGoat</p>
             <div>
-              <p className="text-left text-xl font-bold mb-5 pt-10 underline">
-                CryptoGoat
-              </p>
-              <p className="text-left font-bold mb-5">
+              <p className="text-left font-bold mb-5 pt-4">
                 Tech used: JavaScript, React, Firebase, Axios and TailwindCSS
               </p>
               <p className="text-left mb-2">
@@ -251,14 +198,14 @@ const Websites = () => {
                 target="_blank"
                 href="https://github.com/pulsarbeam/crypto-app"
               >
-                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3 flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
                   <div className="flex flex-row gap-2 items-center">
                     <FaGithub /> Code
                   </div>
                 </button>
               </a>
               <a target="_blank" href="https://cryptogoat-374da.web.app/">
-                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
+                <button className="text-[#fff6f6] bg-[#1a202c] text-center my-10 group border-2 px-6 py-3 flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-white rounded-xl transition duration-300 ease-in-out">
                   <div className="flex flex-row gap-2 items-center">
                     <TbWorld /> Demo
                   </div>
@@ -267,6 +214,7 @@ const Websites = () => {
             </div>
           </div>
         </div>
+        <hr />
       </div>
     </div>
   )

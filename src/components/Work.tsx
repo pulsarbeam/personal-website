@@ -31,18 +31,27 @@ const Work = () => {
               <div className="text-l font-bold flex gap-4 justify-center">
                 <button
                   onClick={handleFront}
-                  className="text-[#fff6f6] bg-[#1a202c] group text-center  group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-gradient-to-r from-yellow-200 via-yellow-300 to-green-300 rounded-xl transition duration-300 ease-in-out"
+                  className={`text-black bg-white text-center group border-2 px-6 py-3 flex justify-center items-center hover:text-black  rounded-xl transition duration-300 ease-in-out ${
+                    !showWebsites
+                      ? 'bg-[#1a202d] text-white hover:text-white'
+                      : ''
+                  }`}
                 >
                   Projects
                 </button>
 
                 <button
                   onClick={handleWeb}
-                  className="text-[#fff6f6] bg-[#1a202c] text-center  group border-2 px-6 py-3  flex justify-center items-center hover:shadow-[8px_8px_0px_0px_#1a202c] hover:border-[#1a202c] hover:text-[#1a202c] hover:bg-gradient-to-r from-yellow-200 via-green-200 to-green-500 rounded-xl transition duration-300 ease-in-out"
+                  className={`text-black bg-white text-center group border-2 px-6 py-3 flex justify-center items-center  hover:text-black  rounded-xl transition duration-300 ease-in-out ${
+                    showWebsites
+                      ? 'bg-[#1a202d] text-white hover:text-white'
+                      : ''
+                  }`}
                 >
-                  Front-End Mentor Challenges
+                  Front-End Mentor
                 </button>
               </div>
+              <div></div>
             </div>
           </div>
           <div>
