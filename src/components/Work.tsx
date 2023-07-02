@@ -31,10 +31,10 @@ const Work = () => {
               <div className="text-l font-bold flex  justify-center">
                 <button
                   onClick={handleFront}
-                  className={`text-black bg-white text-center group border-y-2 border-l-2 px-6 py-3 flex justify-center items-center hover:text-black  rounded-l-xl transition duration-300 ease-in-out lg:min-w-[200px] ${
+                  className={` text-center group border-y-2 border-l-2 px-6 py-3 flex justify-center items-center hover:text-black  rounded-l-xl transition duration-300 ease-in-out lg:min-w-[200px] ${
                     !showWebsites
-                      ? 'bg-[#1a202d] text-white hover:text-white '
-                      : ''
+                      ? 'bg-[#1a202d] text-white  '
+                      : 'text-black bg-white hover:bg-gray-100'
                   }`}
                 >
                   Projects
@@ -42,10 +42,10 @@ const Work = () => {
 
                 <button
                   onClick={handleWeb}
-                  className={`text-black bg-white text-center group lg:min-w-[200px] border-y-2 border-r-2 px-6 py-3 flex justify-center items-center  hover:text-black  rounded-r-xl transition duration-300 ease-in-out ${
+                  className={` text-center group lg:min-w-[200px] border-y-2 border-r-2 px-6 py-3 flex justify-center items-center  hover:text-black  rounded-r-xl transition duration-300 ease-in-out ${
                     showWebsites
-                      ? 'bg-[#1a202d] text-white hover:text-white'
-                      : ''
+                      ? 'bg-[#1a202c] text-white hover:text-white'
+                      : 'text-black bg-white hover:bg-gray-100'
                   }`}
                 >
                   Front-End Mentor
