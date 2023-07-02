@@ -33,7 +33,7 @@ const Work = () => {
                   onClick={handleFront}
                   className={`text-black bg-white text-center group border-y-2 border-l-2 px-6 py-3 flex justify-center items-center hover:text-black  rounded-l-xl transition duration-300 ease-in-out lg:min-w-[200px] ${
                     !showWebsites
-                      ? 'bg-[#1a202d] text-white hover:text-white shadow-[-2px_-4px_0px_0px_#1a202c]'
+                      ? 'bg-[#1a202d] text-white hover:text-white '
                       : ''
                   }`}
                 >
@@ -44,7 +44,7 @@ const Work = () => {
                   onClick={handleWeb}
                   className={`text-black bg-white text-center group lg:min-w-[200px] border-y-2 border-r-2 px-6 py-3 flex justify-center items-center  hover:text-black  rounded-r-xl transition duration-300 ease-in-out ${
                     showWebsites
-                      ? 'bg-[#1a202d] text-white hover:text-white shadow-[3px_4px_0px_0px_#1a202c] '
+                      ? 'bg-[#1a202d] text-white hover:text-white'
                       : ''
                   }`}
                 >
