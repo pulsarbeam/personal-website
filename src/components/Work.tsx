@@ -33,7 +33,7 @@ const Work = () => {
                   onClick={handleFront}
                   className={` text-center group border-y-2 border-l-2 px-6 py-3 flex justify-center items-center hover:text-black  rounded-l-xl transition duration-300 ease-in-out lg:min-w-[200px] ${
                     !showWebsites
-                      ? 'bg-[#1a202d] text-white  '
+                      ? 'bg-[#1a202d] text-white hover:text-white '
                       : 'text-black bg-white hover:bg-gray-100'
                   }`}
                 >
